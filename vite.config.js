@@ -10,8 +10,11 @@ export default defineConfig({
     },
   },
   server: {
-    host: '0.0.0.0',              // 👈 REQUIRED
+    host: '0.0.0.0',              // required for Render
     port: process.env.PORT || 3000,
-    open: false,                  // 👈 MUST be false on Render
+    open: false,                  // must be false on Render
+    allowedHosts: [
+      'syntaxxxx.onrender.com',   // 👈 allow your Render domain
+    ],
   },
 });
