@@ -1,0 +1,27 @@
+{
+  "name": "CodeSnippet",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the snippet"
+    },
+    "language": {
+      "type": "string",
+      "description": "Programming language or topic"
+    },
+    "code": {
+      "type": "string",
+      "description": "The source code"
+    },
+    "output": {
+      "type": "string",
+      "description": "Cached output of the code"
+    }
+  },
+  "required": [
+    "title",
+    "language",
+    "code"
+  ]
+}

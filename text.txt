@@ -1,0 +1,3 @@
+"Angular", "AngularJS", 
+  "PostgreSQL", "MongoDB", "ASP", "R", "Go", "Kotlin", "Swift", 
+  "Sass", "Vue", "SciPy", "AWS", "Bash", "Rust"
