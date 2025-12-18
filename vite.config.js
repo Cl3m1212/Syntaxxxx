@@ -10,7 +10,8 @@ export default defineConfig({
     },
   },
   server: {
-    port: 3000,
-    open: true,
+    host: '0.0.0.0',              // 👈 REQUIRED
+    port: process.env.PORT || 3000,
+    open: false,                  // 👈 MUST be false on Render
   },
 });
